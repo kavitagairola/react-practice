@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-full bg-gray-100 text-center py-6 shadow mt-10">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="w-screen bg-gray-100 text-center py-6 shadow mt-10 ml-[calc(-50vw+50%)] mr-[calc(-50vw+50%)]">
+      <div className=" mx-auto">
         <h3 className="text-gray-600 text-sm sm:text-base font-medium">
           Join the A-List and save 15%
         </h3>
