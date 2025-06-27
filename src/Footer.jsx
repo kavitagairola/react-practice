@@ -2,6 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
+        <>
     <footer className="w-screen bg-gray-100 text-center py-6 shadow mt-10 ml-[calc(-50vw+50%)] mr-[calc(-50vw+50%)]">
       <div className=" mx-auto">
         <h3 className="text-gray-600 text-sm sm:text-base font-medium">
@@ -39,7 +40,15 @@ function Footer() {
           </li>
         </ul>
       </div>
+
+      <div className="bg-slate-800  h-20   text-white mt-5 ">
+      © 2025, Avone. All Rights Reserved. Designed by AdornThemes© 2025, Avone. All Rights Reserved. Designed by AdornThemes
+    </div>
     </footer>
+
+    
+    
+</>
   );
 }
 

@@ -24,6 +24,7 @@ function Hanging() {
           className="w-full h-64 object-cover rounded shadow"
         />
       </div>
+      
     </div>
   );
 }
