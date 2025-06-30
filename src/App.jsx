@@ -8,6 +8,7 @@ import Living from './dahboard/Living'
 import Tabs from './dahboard/Tabs'
 import Hanging from './dahboard/Hanging'
 import Footer from './Footer'
+import Cetagery from './cetagery/Cetagery'
 // import Footertwo from './Footer2'
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       <Living/>
      <Tabs/>
       <Hanging/>
-
       <Footer/>
+    <Cetagery/>
       {/* <Footertwo/> */}
     </>
   )

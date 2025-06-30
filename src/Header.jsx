@@ -6,10 +6,10 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
-        {/* Logo */}
+        
         <h1 className="text-xl md:text-2xl font-bold">AVONE</h1>
 
-        {/* Desktop Menu */}
+        
         <ul className="hidden md:flex gap-6 font-medium text-gray-700">
           <li className="cursor-pointer">HOME</li>
           <li className="cursor-pointer">SHOP</li>
@@ -18,7 +18,7 @@ function Header() {
           <li className="cursor-pointer">PAGE</li>
         </ul>
 
-        {/* Icons */}
+   
         <ul className="hidden md:flex gap-6 font-medium text-gray-700 items-center">
           <li><i className="fa-solid fa-magnifying-glass"></i></li>
           <li><i className="fa-solid fa-address-book"></i></li>
@@ -31,7 +31,7 @@ function Header() {
           </li>
         </ul>
 
-        {/* Hamburger Menu (Mobile) */}
+
         <div className="md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
@@ -42,7 +42,7 @@ function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+     
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 bg-white shadow">
           <ul className="flex flex-col gap-3 font-medium text-gray-700">
